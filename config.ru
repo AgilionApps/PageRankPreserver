@@ -6,6 +6,7 @@ use Rack::Rewrite do
   r301 /customers/i, 'http://agilion.com/#success-stories'
   r301 /services/i,  'http://agilion.com/#services'
   r301 /contact/i,   'http://agilion.com/#contact'
+  r301 /booth/i,     'http://agilion.com/booth'
   r301 /.*/,         'http://agilion.com/'
 end
 
